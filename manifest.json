@@ -1,0 +1,13 @@
+{
+  "id": "tau.embedding-openai",
+  "name": "OpenAI 嵌入",
+  "description": "把笔记内容转成向量用于知识库语义检索，支持 OpenAI 兼容服务。",
+  "categories": ["ai"],
+  "keywords": ["嵌入", "向量", "OpenAI"],
+  "version": "0.1.0",
+  "targets": {
+    "desktop": {
+      "minAppVersion": "0.60.5"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "tau-plugin-embedding-openai",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LastKnightCoder/tau-plugin-embedding-openai.git"
+  },
+  "homepage": "https://github.com/LastKnightCoder/tau-plugin-embedding-openai#readme",
+  "bugs": {
+    "url": "https://github.com/LastKnightCoder/tau-plugin-embedding-openai/issues"
+  },
+  "packageManager": "pnpm@11.9.0",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "check": "tsc --noEmit",
+    "test": "vitest run",
+    "build": "pnpm check && node build.mjs",
+    "install:local": "node install-local.mjs"
+  },
+  "dependencies": {
+    "@tau/plugins": "npm:@xiongtao.xt/tau-plugins@0.49.0",
+    "@tau/ui": "npm:@xiongtao.xt/tau-ui@0.5.0",
+    "react": "19.2.0",
+    "react-dom": "19.2.0"
+  },
+  "devDependencies": {
+    "adm-zip": "0.5.16",
+    "@types/react": "19.2.0",
+    "@types/react-dom": "19.2.0",
+    "typescript": "5.8.3",
+    "esbuild": "0.25.12",
+    "vitest": "3.2.4"
+  }
+}
