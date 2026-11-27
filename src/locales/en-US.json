@@ -1,0 +1,7 @@
+{
+  "connection.title": "Connection",
+  "connection.description": "Note content is sent to the configured model service to generate vectors.",
+  "connection.apiKey": "API Key",
+  "connection.baseUrl": "Model endpoint",
+  "connection.baseUrlHint": "Change this to the endpoint of an OpenAI-compatible embedding service"
+}

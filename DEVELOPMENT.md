@@ -2,7 +2,7 @@
 
 当前依赖、平台边界与验证步骤见 [兼容性说明](COMPATIBILITY.md)。
 
-需要 Node.js 22 或更高版本，以及 pnpm 11.9.0。依赖从公共 npm 注册表安装，SDK 使用 `@tau/plugins` 到 `@xiongtao.xt/tau-plugins@0.49.0` 的公开别名，不依赖 Tau 主仓库、本机目录或 SDK 快照包。
+需要 Node.js 22 或更高版本，以及 pnpm 11.9.0。依赖从公共 npm 注册表安装，SDK 使用 `@tau/plugins` 到 `@xiongtao.xt/tau-plugins@0.63.0` 的公开别名，不依赖 Tau 主仓库、本机目录或 SDK 快照包。
 
 ```sh
 pnpm install --frozen-lockfile

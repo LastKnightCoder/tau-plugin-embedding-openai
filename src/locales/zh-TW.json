@@ -1,0 +1,7 @@
+{
+  "connection.title": "連線",
+  "connection.description": "筆記內容會傳送至設定的模型服務以產生向量。",
+  "connection.apiKey": "API Key",
+  "connection.baseUrl": "模型位址",
+  "connection.baseUrlHint": "使用相容 OpenAI 嵌入介面的服務時，可改為對應位址"
+}

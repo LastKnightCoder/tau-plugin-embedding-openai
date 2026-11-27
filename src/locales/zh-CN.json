@@ -1,0 +1,7 @@
+{
+  "connection.title": "连接",
+  "connection.description": "笔记内容会发送到所配置的模型服务生成向量。",
+  "connection.apiKey": "API Key",
+  "connection.baseUrl": "模型地址",
+  "connection.baseUrlHint": "兼容 OpenAI 嵌入接口的服务可改为对应地址"
+}

@@ -4,10 +4,22 @@
   "description": "把笔记内容转成向量用于知识库语义检索，支持 OpenAI 兼容服务。",
   "categories": ["ai"],
   "keywords": ["嵌入", "向量", "OpenAI"],
-  "version": "0.1.0",
+  "i18n": {
+    "zh-TW": {
+      "description": "將筆記內容轉為向量用於知識庫語意檢索，支援 OpenAI 相容服務。",
+      "keywords": ["嵌入模型", "嵌入", "向量", "OpenAI"]
+    },
+    "en-US": {
+      "name": "OpenAI Embeddings",
+      "description": "Convert note content into vectors for semantic knowledge base search, with support for OpenAI-compatible services.",
+      "keywords": ["embedding", "vector", "semantic search", "OpenAI"]
+    }
+  },
+  "locales": ["zh-CN", "zh-TW", "en-US"],
+  "version": "0.1.1",
   "targets": {
     "desktop": {
-      "minAppVersion": "0.60.5"
+      "minAppVersion": "0.68.0"
     }
   }
 }
